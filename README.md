@@ -1,20 +1,19 @@
 # lab2_step2
 Second step of lab2. Representation of DB structure.
 
-# 1) Language: SQLite
+# 1) Language: 
+SQLite
 
 # 2) Schema([schema_link](https://github.com/peterbartosh/Lab2_step1/blob/main/README.md)):
-
 Orders table:
 
 ![image](https://github.com/peterbartosh/lab2_step2/assets/99812822/2e4320ae-14e1-4d61-abe2-14090cf93fa4)
 
-# Orders-Products table:
+Orders-Products table:
 
 ![image](https://github.com/peterbartosh/lab2_step2/assets/99812822/95c54a21-7a85-43b7-9847-4a875948fbf2)
 
 # 3) Inserting data:
-
 ```sql
   Insert Into orders Values(status, date, longtitude, lattitude, preferencesComment)
   Values (1, to_date('dd.MM.yyyy', '10.11.2022), '45.4392352', '37.3455321', 'Some optional comment 1');
