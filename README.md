@@ -3,9 +3,7 @@ Second step of lab2. Representation and expanation of DB structure.
 
 # 1) SQL lng: SQLite
 
-# 2) Schema:
-
-[schema_link](https://github.com/peterbartosh/Lab2_step1/blob/main/README.md)
+# 2) Schema([schema_link](https://github.com/peterbartosh/Lab2_step1/blob/main/README.md)):
 
 Orders table:
 
@@ -17,7 +15,6 @@ Orders table:
 
 # 3) Inserting data:
 
-
 ```sql
   Insert Into orders Values(status, date, longtitude, lattitude, preferencesComment)
   Values (1, to_date('dd.MM.yyyy', '10.11.2022), '45.4392352', '37.3455321', 'Some optional comment 1');
@@ -26,10 +23,6 @@ Orders table:
   Insert Into orders Values(status, date, longtitude, lattitude, preferencesComment)
   Values (4, to_date('dd.MM.yyyy', '12.06.2022), '13.3592452', '37.3482945', 'Some optional comment 3');
 ```
-val id: Int = 0,
-    val orderId: Int?,
-    val amount: Int?,
-    val productName: String?
 
 ```sql
   Insert Into OrderProducts Values(orderId, amount, productName)
