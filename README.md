@@ -1,7 +1,7 @@
 # lab2_step2
 Second step of lab2. Representation of DB structure.
 
-# 1) SQL lng: SQLite
+# 1) Language: SQLite
 
 # 2) Schema([schema_link](https://github.com/peterbartosh/Lab2_step1/blob/main/README.md)):
 
